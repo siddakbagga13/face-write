@@ -18,7 +18,7 @@ body{
     width: 50%;
     height: 100vh;
     object-fit: cover;
-    margin-left: 390px;
+    
 }
 .container img:nth-child(2){
     mix-blend-mode: multiply;
