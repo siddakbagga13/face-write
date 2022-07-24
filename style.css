@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+.container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100vh;
+    object-fit: cover;
+    margin-left: 390px;
+}
+.container img:nth-child(2){
+    mix-blend-mode: multiply;
+    justify-content: center;
+}
